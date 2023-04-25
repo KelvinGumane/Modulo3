@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .destaque{
+            background-color: green;
+        }
+
+        th{
+            background-color: rgb(190, 189, 189);
+            
+        }
+        th,td{
+            border: 1px solid black;
+            width: 150px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .cnome{
+            background-color:greenyellow;
+        }
+        .group{
+            background-color: yellow;
+        }
+        
+        div#container{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exercio de tabelas</h1>
+    
+
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="group" span="3">
+        
+             </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissao</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Aida Paula</td>
+                <td>M</td>
+                <td>50</td>
+                <td>Jurista</td>
+            </tr>
+            <tr>
+                <td>Zoe Gumane</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Medica</td>
+            </tr>
+            <tr>
+                <td>Joao Lourenco</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td >Bartolomeu</td>
+                <td>M</td>
+                <td>60</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Ailton Senna</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Taxista</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
